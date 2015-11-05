@@ -74,12 +74,12 @@ void draw() {
   for(int i=0;i<5;i++){
     image(enemy[i],enemyx-60*i,enemyy);
     if (enemyx-60*5 >= 640) {
-    enemyx=0;enemyy=(int)random(250,430);playA=1;}}}
+    enemyx=0;enemyy=(int)random(245,430);playA=1;}}}
      if(playA==1){
     for(int i=0;i<5;i++){
     image(enemy[i],enemyx-60*i,enemyy-50*i);
     if (enemyx-60*5 >= 640) {
-    enemyx=0;enemyy=(int)random(100,330);playA=2;}}}
+    enemyx=0;enemyy=(int)random(95,335);playA=2;}}}
      if(playA==2){
     image(enemy[0],enemyx,enemyy+50*0);
     image(enemy[1],enemyx-60*1,enemyy+50*1);
