@@ -1,6 +1,6 @@
 //You should implement your assign3 here.
 PImage start2,start1,backGround1,backGround2,fighter,treasure,hp;
-int backGround1x=0,backGround2x=640,treasurex=(int)random(620),treasurey=(int)random(430),enemyx=0,enemyy=(int)random(430),k=200,playA=0;
+int backGround1x=0,backGround2x=640,treasurex=(int)random(620),treasurey=(int)random(430),enemyx=0,enemyy=(int)random(430),k=40,playA=0;
 PImage[] enemy =new PImage[18];
 float fighterx=580;
 float fightery=220;
